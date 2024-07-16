@@ -86,7 +86,82 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /*== General Styles ==*/
+   html, body {
+    font-size: 16px;
+    font-family: "Alanta" sans-serif;
+    text-align: left;
+    color: #351D77;
+    background-color: #E8F0E4;
+    max-width: 1200px;
+    width: 100%;
+   }
 
+   p {
+    line-height: 30px;
+   }
+
+
+   /*== Header Styles ==*/
+   header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   .greeting {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   nav ul {
+    display: flex;
+    flex-direction: row;
+   }
+
+   nav ul li {
+    justify-content: space-evenly;
+    align-content: flex-start;
+    padding: 0 15px;
+    list-style: none;
+   }
+
+   .home-title {
+    justify-content: center;
+    align-content: center;
+    padding: 0 50px;
+   }
+
+   h1 {
+    width: 100%;
+    font-size: 1.5rem
+   }
+
+   .content-wrapper {
+    display: flex;
+   }
+
+   /*== main styles ==*/
+   #projects {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   }
+
+   .work {
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+
+   }
+
+   img {
+    max-width: 100px;
+    max-height: 150px;
+   }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
