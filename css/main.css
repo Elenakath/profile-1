@@ -100,7 +100,8 @@ textarea {
 
    .projects, #about {
     background-color: white;
-    color: #383838;
+    color: #505050;
+    font-weight: lighter;
    }
 
    .skill-item {
@@ -202,10 +203,11 @@ textarea {
 
    img {
     max-height: 200px;
+    border: 2.5px ridge #d3d3d3
    }
 
    .class-description {
-    padding: 0 30px 0 30px;
+    padding: 0 30px 10px 30px;
     text-align: center;
    }
 
@@ -215,7 +217,7 @@ textarea {
     padding: 3px 35px 3px 35px;
     text-decoration: none;
     font-size: 1.2rem;
-    color: #351D77;
+    color: #505050;
    }
 
    .content-wrapper {
