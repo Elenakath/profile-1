@@ -194,7 +194,7 @@ textarea {
 
    img {
     max-height: 200px;
-    border: .4rem solid #D4D3E9;
+    border: .4rem solid #E8F0E4;
    }
 
    .class-description {
@@ -241,6 +241,26 @@ textarea {
 
    span {
     padding: .4rem;
+   }
+
+   .about-info {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .about-info h3 {
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   .about-info p {
+    display: flex;
+    margin: 0 1.5rem;
+   }
+
+   .about-info h4 {
+    display: flex;
+    justify-content: space-evenly;
    }
 
 /* ==========================================================================
