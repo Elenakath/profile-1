@@ -100,16 +100,8 @@ textarea {
 
    .projects, #about {
     background-color: white;
-    color: #383838;
    }
 
-   .skill-item {
-    list-style: none;
-   }
-
-   span {
-    background-color: #E9B14C;
-   }
 
    p {
     line-height: 30px;
@@ -202,6 +194,7 @@ textarea {
 
    img {
     max-height: 200px;
+    border: .4rem solid #D4D3E9;
    }
 
    .class-description {
@@ -223,9 +216,31 @@ textarea {
     flex-direction: column;
    }
 
-   h3 {
+   h2 {
     display: flex;
     justify-content: center;
+   }
+
+   .skills-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+   }
+
+   .skills-wrapper p {
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+   }
+
+   .skill-item {
+    padding: .6rem;
+    background-color: #E9B14C;
+    margin: 1rem 2rem;
+   }
+
+   span {
+    padding: .4rem;
    }
 
 /* ==========================================================================
