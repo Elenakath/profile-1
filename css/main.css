@@ -88,7 +88,7 @@ textarea {
    ========================================================================== */
    /*== General Styles ==*/
    html, body {
-    font-size: 16px;
+    font-size: 20px;
     font-family: "Alanta" sans-serif;
     text-align: left;
     color: #351D77;
@@ -98,7 +98,7 @@ textarea {
     overflow-x: hidden;
    }
 
-   .projects, #about {
+   .hero-wrapper, #about {
     background-color: white;
    }
 
@@ -162,6 +162,7 @@ textarea {
     justify-content: center;
     align-content: center;
     padding: 0 50px;
+    margin-bottom: 2rem;
    }
 
    h1 {
@@ -190,6 +191,7 @@ textarea {
     justify-content: center;
     flex-flow: row wrap;
     padding-bottom: 15px;
+    margin-bottom: 3rem;
    }
 
    img {
@@ -221,6 +223,10 @@ textarea {
     justify-content: center;
    }
 
+   #skills {
+    margin-bottom: 3rem;
+   }
+
    .skills-wrapper {
     display: flex;
     flex-flow: column wrap;
@@ -248,6 +254,11 @@ textarea {
     flex-direction: column;
    }
 
+   .about-info figure {
+    display: flex;
+    justify-content: center;
+   }
+
    .about-info h3 {
     display: flex;
     justify-content: space-evenly;
@@ -261,6 +272,52 @@ textarea {
    .about-info h4 {
     display: flex;
     justify-content: space-evenly;
+   }
+
+   /*=== Footer styles ===*/
+   .contact {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .hire-me {
+    margin-bottom: 3rem;
+   }
+
+   .contact h2 {
+    text-align: center;
+   }
+
+   .contact-info h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+   }
+
+   .connect h3 {
+    margin-bottom: 2rem;
+   }
+
+   .social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 1.9rem;
+    margin-bottom: 3rem;
+   }
+
+   .social-icons li {
+    list-style: none;
+   }
+
+   .social-icons i{
+    font-size: 2.4rem;
+   }
+
+   .meet-me p {
+    margin-bottom: 3rem;
+   }
+
+   .contact p {
+    margin-bottom: 3rem;
    }
 
 /* ==========================================================================
