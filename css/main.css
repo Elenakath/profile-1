@@ -138,6 +138,8 @@ textarea {
     list-style: none;
    }
 
+   /*=== Main Section ===*/
+
    a {
     text-decoration: none;
     /*== save for desktop styles 
@@ -213,6 +215,8 @@ textarea {
     color: #351D77;
    }
 
+   /*=== Skills section ===*/
+
    .content-wrapper {
     display: flex;
     flex-direction: column;
@@ -248,6 +252,8 @@ textarea {
    span {
     padding: .4rem;
    }
+
+   /*=== About Section ===*/
 
    .about-info {
     display: flex;
@@ -311,6 +317,8 @@ textarea {
    .social-icons i{
     font-size: 2.4rem;
    }
+
+   /*=== Meet me div ===*/
 
    .meet-me p {
     margin-bottom: 3rem;
@@ -408,8 +416,8 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /* Tabelt Styles */
 }
 
 @media print,
