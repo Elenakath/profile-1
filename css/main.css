@@ -155,22 +155,16 @@ textarea {
     padding: 5px 10px 5px 10px;
    }*/
 
+   .home-title {
+    align-content: center;
+    padding: 20px 50px;
+   }
+
    h1 {
     font-size: 1.5rem;
     text-align: center;
+    width: 100%
    } 
-
-   .home-title {
-    justify-content: center;
-    align-content: center;
-    padding: 0 50px;
-    margin-bottom: 2rem;
-   }
-
-   h1 {
-    width: 100%;
-    font-size: 1.5rem
-   }
 
    /*== main styles ==*/
    #projects {
@@ -418,6 +412,23 @@ textarea {
 
 @media only screen and (min-width: 768px) {
   /* Tabelt Styles */
+  /*== General Styles ==*/
+  html, body {
+    font-size: 24px;
+  }
+
+  /*=== Header Styles ===*/
+  header {
+    margin: 1.5rem;
+   }
+
+   .home-title {
+    padding: 30px 60px;
+   }
+
+   h1 {
+    padding-bottom: 15px;
+   }
 
   /*====== Main section =======*/
   .work {
@@ -434,9 +445,8 @@ textarea {
     justify-content: space-between;
     align-items: center;
     margin: 1rem;
-    /*flex-flow: row wrap;*/
     padding-bottom: 0;
-    width: 40%;
+    width: 45%;
    }
 
 }
