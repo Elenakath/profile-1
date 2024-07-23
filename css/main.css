@@ -230,17 +230,14 @@ textarea {
     flex-flow: column wrap;
    }
 
-   .skills-wrapper p {
-    line-height: 30px;
-    text-align: center;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-   }
-
    .skill-item {
+    line-height: 30px;
     padding: .6rem;
     background-color: #E9B14C;
     margin: 1rem 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
    }
 
    span {
@@ -449,7 +446,30 @@ textarea {
     width: 45%;
    }
 
+   /*=== Skills Section ===*/
+
+   .skills-wrapper {
+    justify-content: space-around;
+    align-content: center;
+    width: 75%;
+    align-content: center;
+    flex-flow: row wrap;
+    padding-left: 5rem;
+   }
+
+   .skill-item {
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    align-items: center;
+   }
+
 }
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
