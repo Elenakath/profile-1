@@ -170,24 +170,21 @@ textarea {
    #projects {
     display: flex;
     justify-content: center;
-    align-content: center;
+    /*align-content: center;*/
+    width: 100%;
    }
 
    .work {
     display: flex;
     justify-content: center;
-    align-content: start;
     flex-flow: row wrap;
-    padding: 10px 10px;
-
    }
 
    .portfolio-wrapper {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    padding-bottom: 15px;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
    }
 
    img {
@@ -196,8 +193,7 @@ textarea {
    }
 
    .class-description {
-    text-align: center;
-    margin: 2.9rem;
+    width: 90%;
    }
 
    .live-page-link {
@@ -210,6 +206,10 @@ textarea {
    }
 
    /*=== Skills section ===*/
+   #skills {
+    display: flex;
+    justify-content: center;
+   }
 
    .content-wrapper {
     display: flex;
@@ -221,27 +221,22 @@ textarea {
     justify-content: center;
    }
 
-   #skills {
-    margin-bottom: 3rem;
-   }
-
    .skills-wrapper {
     display: flex;
     flex-flow: column wrap;
+    justify-content: space-around;
    }
 
    .skill-item {
-    line-height: 30px;
-    padding: .6rem;
     background-color: #E9B14C;
-    margin: 1rem 2rem;
-    text-align: center;
     font-size: 1.2rem;
     text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
    }
 
    span {
-    padding: .4rem;
+    padding: .6rem;
    }
 
    /*=== About Section ===*/
@@ -437,36 +432,45 @@ textarea {
     width: 90%
    }
    
-   .portfolio-wrapper {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1rem;
-    padding-bottom: 0;
-    width: 45%;
+  .portfolio-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-bottom: 1rem;
+    width: 50%;
    }
 
    /*=== Skills Section ===*/
 
-   .skills-wrapper {
+  .skills-wrapper {
     justify-content: space-around;
-    align-content: center;
-    width: 75%;
+    width: 96%;
     align-content: center;
     flex-flow: row wrap;
-    padding-left: 5rem;
+    padding: 0 1rem;
    }
 
    .skill-item {
-    line-height: 30px;
+    /*line-height: 30px;
     text-align: center;
     font-size: 1.2rem;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
     display: flex;
     justify-content: center;
     width: 33%;
     align-items: center;
+    padding: 0 1rem;
    }
+
+  /*=== About Section ===*/
+
+  .about-info img {
+    max-height: 300px;
+  }
+
+  .about-info p {
+    line-height: 2.5rem;
+  }
 
 }
 
