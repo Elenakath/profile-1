@@ -93,7 +93,6 @@ textarea {
     text-align: left;
     color: #351D77;
     background-color: #E8F0E4;
-    max-width: 1200px;
     width: 100%;
     overflow-x: hidden;
    }
@@ -142,18 +141,7 @@ textarea {
 
    a {
     text-decoration: none;
-    /*== save for desktop styles 
-    background-color: #EEE4F0;
-    border-radius: 50px;
-    padding: 5px 10px 5px 10px;*/
    }
-
-   /* save for desktop styles 
-   a:hover {
-    background-color: #EEE4F0;
-    border-radius: 50px;
-    padding: 5px 10px 5px 10px;
-   }*/
 
    .home-title {
     align-content: center;
@@ -170,7 +158,6 @@ textarea {
    #projects {
     display: flex;
     justify-content: center;
-    /*align-content: center;*/
     width: 100%;
    }
 
@@ -492,7 +479,28 @@ textarea {
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  /*=== Desktop Styles ===*/
 
+.greeting {
+  width: 85%;
+}
+
+nav ul {
+  justify-content: flex-end;
+}
+
+/*a {
+  background-color: #EEE4F0;
+  border-radius: 50px;
+  padding: 5px 10px 5px 10px;
+ }*/
+a:hover {
+  background-color: #EEE4F0;
+  border-radius: 50px;
+  padding: 5px 10px 5px 10px;
+ }
+}
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
