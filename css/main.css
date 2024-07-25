@@ -480,7 +480,13 @@ textarea {
 }
 
 @media only screen and (min-width: 1200px) {
-  /*=== Desktop Styles ===*/
+  /*===============================================
+              Desktop Styles 
+    ===============================================*/
+    /*======== General Styles ========*/
+    p {
+      font-size: .8rem;
+    }
 
 .greeting {
   width: 85%;
@@ -490,16 +496,34 @@ nav ul {
   justify-content: flex-end;
 }
 
-/*a {
-  background-color: #EEE4F0;
-  border-radius: 50px;
-  padding: 5px 10px 5px 10px;
- }*/
 a:hover {
   background-color: #EEE4F0;
   border-radius: 50px;
   padding: 5px 10px 5px 10px;
  }
+
+ /*=========================================================
+      Main Section 
+  ==========================================================*/
+  /*======== Projects ==========*/
+  .portfolio-wrapper {
+    flex-direction: column;
+  }
+  .image-link {
+    display: flex;
+    justify-content: center;
+  }
+
+  .portfolio-wrapper h3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .live-page-link {
+    display: flex;
+    justify-content: center;
+  }
+  
 }
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
