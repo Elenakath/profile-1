@@ -86,7 +86,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   /*== General Styles ==*/
+   /*===============
+    General Styles 
+    ================*/
    html, body {
     font-size: 20px;
     font-family: "Alanta" sans-serif;
@@ -108,7 +110,9 @@ textarea {
    }
 
 
-   /*== Header Styles ==*/
+   /*======================
+    Header Styles
+    =======================*/
    header {
     display: flex;
     justify-content: center;
@@ -137,7 +141,9 @@ textarea {
     list-style: none;
    }
 
-   /*=== Main Section ===*/
+   /*=========================
+    Main Section 
+    ==========================*/
 
    a {
     text-decoration: none;
@@ -154,7 +160,6 @@ textarea {
     width: 100%
    } 
 
-   /*== main styles ==*/
    #projects {
     display: flex;
     justify-content: center;
@@ -183,7 +188,7 @@ textarea {
     width: 90%;
    }
 
-   .live-page-link {
+   .live-page-link span {
     background-color: #F8D697;
     border-radius: 100px;
     padding: 3px 35px 3px 35px;
@@ -192,7 +197,9 @@ textarea {
     color: #351D77;
    }
 
-   /*=== Skills section ===*/
+   /*===========================
+    Skills section 
+    ============================*/
    #skills {
     display: flex;
     justify-content: center;
@@ -226,7 +233,9 @@ textarea {
     padding: .6rem;
    }
 
-   /*=== About Section ===*/
+   /*==========================
+    About Section 
+    ============================*/
 
    .about-info {
     display: flex;
@@ -253,7 +262,9 @@ textarea {
     justify-content: space-evenly;
    }
 
-   /*=== Footer styles ===*/
+   /*=============================
+    Footer styles 
+    ==============================*/
    .contact {
     display: flex;
     flex-direction: column;
@@ -286,7 +297,9 @@ textarea {
     font-size: 2.4rem;
    }
 
-   /*=== Meet me div ===*/
+   /*===========================
+    Meet me div 
+    =============================*/
 
    .meet-me p {
     margin-bottom: 3rem;
@@ -386,12 +399,16 @@ textarea {
 
 @media only screen and (min-width: 768px) {
   /* Tabelt Styles */
-  /*== General Styles ==*/
+  /*=========================
+   General Styles 
+   ==========================*/
   html, body {
     font-size: 24px;
   }
 
-  /*=== Header Styles ===*/
+  /*========================== 
+  Header Styles 
+  =============================*/
   header {
     margin: 1.5rem;
    }
@@ -404,7 +421,9 @@ textarea {
     padding-bottom: 15px;
    }
 
-  /*====== Main section =======*/
+  /*=========================== 
+  Main section 
+  =============================*/
   .work {
     flex-flow: wrap;
     padding: 2rem 0;
@@ -422,7 +441,9 @@ textarea {
     width: 50%;
    }
 
-   /*=== Skills Section ===*/
+   /*============================== 
+   Skills Section 
+   =================================*/
 
   .skills-wrapper {
     justify-content: space-around;
@@ -440,7 +461,9 @@ textarea {
     padding: 0 1rem;
    }
 
-  /*=== About Section ===*/
+  /*================================== 
+  About Section 
+  =====================================*/
 
   .about-info img {
     max-height: 300px;
@@ -450,7 +473,9 @@ textarea {
     line-height: 2.5rem;
   }
 
-  /*=== Footer Section ===*/
+  /*================================== 
+  Footer Section 
+  ====================================*/
   .contact {
     flex-flow: row wrap;
   }
@@ -483,31 +508,39 @@ textarea {
   /*===============================================
               Desktop Styles 
     ===============================================*/
-    /*======== General Styles ========*/
-    p {
-      font-size: .8rem;
-    }
+    /*=============================================
+     General Styles 
+     ===============================================*/
+  p {
+     font-size: .8rem;
+   }
 
-.greeting {
-  width: 85%;
-}
+  .greeting {
+    width: 85%;
+  }
 
-nav ul {
-  justify-content: flex-end;
-}
+  nav ul {
+    justify-content: flex-end;
+  }
 
-a:hover {
-  background-color: #EEE4F0;
-  border-radius: 50px;
-  padding: 5px 10px 5px 10px;
- }
+  .nav-list:hover {
+    background-color: #EEE4F0;
+    border-radius: 50px;
+    padding: 5px 10px 5px 10px;
+  }
 
  /*=========================================================
       Main Section 
   ==========================================================*/
-  /*======== Projects ==========*/
+  /*================= 
+  Projects 
+  ===================*/
   .portfolio-wrapper {
     flex-direction: column;
+  }
+
+  .work {
+    margin: 2rem;
   }
   .image-link {
     display: flex;
@@ -522,6 +555,19 @@ a:hover {
   .live-page-link {
     display: flex;
     justify-content: center;
+  }
+
+  .live-page-link span {
+    background: #F8D697;
+    border-radius: 50px;
+    padding: 0 15px;
+  }
+
+  /*================================
+  About Section 
+  =================================*/
+  .about-info p {
+    margin: 0 7rem;
   }
   
 }
