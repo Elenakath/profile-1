@@ -229,7 +229,7 @@ textarea {
     justify-content: space-around;
    }
 
-   span {
+   .skill-item span {
     padding: .6rem;
    }
 
@@ -511,6 +511,10 @@ textarea {
     /*=============================================
      General Styles 
      ===============================================*/
+  
+  body {
+    font-size: .5rem;
+  }
   p {
      font-size: .8rem;
    }
@@ -563,6 +567,35 @@ textarea {
     padding: 0 15px;
   }
 
+  /*================================
+  Skills Section
+  =================================*/
+  #skills {
+    margin: 1rem;
+  }
+
+  .content-wrapper {
+    width: 60%;
+  }
+
+  .content-wrapper h2 {
+    padding-bottom: 1rem;
+  }
+
+  .skills-wrapper {
+    gap: 3.1rem;
+    justify-content: center;
+  }
+  .skill-item {
+    width: 25%;
+    padding: 0 .2rem;
+    white-space: nowrap;
+  }
+
+  .skill-item span {
+    font-size: .7rem;
+    background: #E9B14C;
+  }
   /*================================
   About Section 
   =================================*/
