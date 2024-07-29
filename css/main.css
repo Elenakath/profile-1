@@ -513,10 +513,10 @@ textarea {
      ===============================================*/
   
   body {
-    font-size: .5rem;
+    font-size: .7rem;
   }
   p {
-     font-size: .8rem;
+     font-size: .7rem;
    }
 
   .greeting {
@@ -565,6 +565,7 @@ textarea {
     background: #F8D697;
     border-radius: 50px;
     padding: 0 15px;
+    font-size: .9rem;
   }
 
   /*================================
