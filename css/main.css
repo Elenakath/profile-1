@@ -606,7 +606,7 @@ textarea {
   =================================*/
 
   .about-info {
-    margin: 0 3rem;
+    padding: 3rem;
     flex-direction: row;
   }
 
