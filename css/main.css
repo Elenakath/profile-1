@@ -560,6 +560,10 @@ textarea {
     justify-content: center;
   }
 
+  .class-description {
+    width: 100%;
+  }
+
   .live-page-link {
     display: flex;
     justify-content: center;
