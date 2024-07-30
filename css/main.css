@@ -548,7 +548,7 @@ textarea {
   }
 
   .work {
-    margin: 2rem;
+    margin: 2rem 5rem;
   }
   .image-link {
     display: flex;
@@ -566,10 +566,14 @@ textarea {
   }
 
   .live-page-link span {
-    background: #F8D697;
+    background: #E9B14C;
     border-radius: 50px;
     padding: 0 15px;
     font-size: .9rem;
+  }
+
+  .live-page-link span:hover {
+    background: #F8D697;
   }
 
   /*================================
