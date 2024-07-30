@@ -588,8 +588,7 @@ textarea {
   }
 
   .skills-wrapper {
-    gap: 3.1rem;
-    justify-content: center;
+    justify-content: space-around;
   }
   .skill-item {
     width: 25%;
