@@ -770,6 +770,10 @@ textarea {
     background: #E9B14C;
   }
 
+  .content-wrapper .tools-wrapper {
+    padding: 0 1rem 6.6rem;
+  }
+
   .tools-wrapper .tool-item {
     font-size: .75rem;
   }
