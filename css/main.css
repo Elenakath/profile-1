@@ -211,7 +211,7 @@ textarea {
    }
 
    .portfolio-wrapper span {
-    font-size: 1.2rem;
+    font-size: .9rem;
    }
 
    .live-page-link {
@@ -301,6 +301,10 @@ textarea {
    .about-info figure {
     display: flex;
     justify-content: center;
+   }
+
+   .about-info img {
+    max-height: 300px;
    }
 
    .about-info h3 {
@@ -525,6 +529,10 @@ textarea {
     margin: 0 2.2rem 2.2rem 2.2rem;
    }
 
+   .portfolio-wrapper span {
+    font-size: 1.2rem;
+   }
+
    /*============================== 
    Skills Section 
    =================================*/
@@ -581,7 +589,7 @@ textarea {
   }
 
   .about-info img {
-    max-height: 300px;
+    max-height: 400px;
   }
 
   .about-info h3 {
@@ -727,6 +735,10 @@ textarea {
     background: #F8D697;
   }
 
+  .portfolio-wrapper span {
+    font-size: .9rem;
+   }
+
   /*================================
   Skills Section
   =================================*/
@@ -773,13 +785,22 @@ textarea {
     align-items: center;
   }
 
+  .about-info img {
+    max-height: 400px;
+  }
+
   .about-info aside {
     display: flex;
     flex-direction: column;
 
   }
+
+  .about-info h3 {
+    margin-bottom: 0;
+  }
   .about-info p {
     line-height: 1.5rem;
+    margin-top: 1.2rem;
   }
   
   /*=================================
