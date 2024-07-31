@@ -755,6 +755,10 @@ textarea {
     font-size: .7rem;
     background: #E9B14C;
   }
+
+  .tools-wrapper .tool-item {
+    font-size: .75rem;
+  }
   /*================================
   About Section 
   =================================*/
