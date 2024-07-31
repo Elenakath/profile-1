@@ -103,13 +103,6 @@ textarea {
     background-color: white;
    }
 
-
-   p {
-    line-height: 30px;
-    text-align: center;
-   }
-
-
    /*======================
     Header Styles
     =======================*/
@@ -132,26 +125,26 @@ textarea {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 0;
+    margin-top: 1.6rem;
    }
 
    nav ul li {
-    justify-content: space-evenly;
-    align-content: flex-start;
-    padding: 0 15px;
     list-style: none;
    }
 
-   /*=========================
-    Main Section 
-    ==========================*/
+   nav ul li:hover {
+    background-color: #E9B14C;
+    border-radius: 50px;
+   }
 
-   a {
+   nav ul li a {
     text-decoration: none;
    }
 
    .home-title {
     align-content: center;
     padding: 20px 50px;
+    margin-top: 3.3rem;
    }
 
    h1 {
@@ -160,10 +153,19 @@ textarea {
     width: 100%
    } 
 
+   .home-title p {
+    text-align: center;
+   }
+
+   /*=========================
+    Main Section 
+    ==========================*/
+
    #projects {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top: 4.4rem;
    }
 
    .work {
@@ -176,7 +178,12 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    margin-bottom: 1rem;
+    margin-bottom: 2.2rem;
+    width: 80%;
+   }
+
+   .portfolio-wrapper h3 {
+    margin-bottom: 2.2rem;
    }
 
    img {
@@ -184,15 +191,35 @@ textarea {
     border: .4rem solid #E8F0E4;
    }
 
-   .class-description {
-    width: 90%;
+   .project-info {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .project-info .class-description {
+    margin-bottom: 1.6rem;
+   }
+
+   .project-info p {
+    margin: 0;
+   }
+
+   .project-info .tools {
+    margin-bottom: 2.2rem;
+   }
+
+   .portfolio-wrapper span {
+    font-size: 1.2rem;
+   }
+
+   .live-page-link {
+    text-decoration: none;
    }
 
    .live-page-link span {
     background-color: #F8D697;
     border-radius: 100px;
     padding: 3px 35px 3px 35px;
-    text-decoration: none;
     font-size: 1.2rem;
     color: #351D77;
    }
@@ -203,16 +230,20 @@ textarea {
    #skills {
     display: flex;
     justify-content: center;
+    margin-bottom: 4.4rem;
    }
 
    .content-wrapper {
     display: flex;
     flex-direction: column;
+    margin-top: 3.3rem;
    }
 
    h2 {
     display: flex;
     justify-content: center;
+    margin-top: 2.2rem;
+    margin-bottom: 2.2rem;
    }
 
    .skills-wrapper {
@@ -221,7 +252,7 @@ textarea {
     justify-content: space-around;
    }
 
-   .skill-item {
+   .skills-wrapper .skill-item {
     background-color: #E9B14C;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -233,6 +264,24 @@ textarea {
     padding: .6rem;
    }
 
+   .content-wrapper .tools-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+   }
+
+   .tools-wrapper .tool-item {
+    background-color: #E9B14C;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+   }
+
+   .tool-item span {
+    padding: .6rem;
+   }
+
    /*==========================
     About Section 
     ============================*/
@@ -240,6 +289,7 @@ textarea {
    .about-info {
     display: flex;
     flex-direction: column;
+    padding-top: 4.4rem;
    }
 
    .about-info figure {
@@ -250,16 +300,18 @@ textarea {
    .about-info h3 {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 2.2rem;
    }
 
    .about-info p {
     display: flex;
-    margin: 0 1.5rem;
+    margin: 2.2rem 1.5rem 0;
    }
 
    .about-info h4 {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 4.4rem;
    }
 
    /*=============================
@@ -268,25 +320,35 @@ textarea {
    .contact {
     display: flex;
     flex-direction: column;
+    margin-top: 2.2rem;
    }
 
    .hire-me {
-    margin-bottom: 3rem;
+    margin-bottom: 3.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .hire-me p {
+    text-align: center;
    }
 
    .contact h2 {
     text-align: center;
+    margin-bottom: 3.3rem;
    }
 
    .contact-info h3 {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.6rem;
    }
 
    .social-icons {
     display: flex;
     justify-content: space-evenly;
     width: 79%;
+    margin-bottom: 3.3rem;
    }
 
    .social-icons li {
@@ -301,12 +363,20 @@ textarea {
     Meet me div 
     =============================*/
 
+    .meet-me {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
    .meet-me p {
-    margin-bottom: 3rem;
+    margin-bottom: 3.3rem;
+    text-align: center;
    }
 
    .contact p {
-    margin-bottom: 3rem;
+    margin-bottom: 3.3rem;
+    text-align: center;
    }
 
 /* ==========================================================================
@@ -414,7 +484,7 @@ textarea {
    }
 
    .home-title {
-    padding: 30px 60px;
+    margin: 4.4rem 0;
    }
 
    h1 {
@@ -426,7 +496,7 @@ textarea {
   =============================*/
   .work {
     flex-flow: wrap;
-    padding: 2rem 0;
+    padding: 3.3rem 0;
   }
 
   #projects {
@@ -441,9 +511,21 @@ textarea {
     width: 50%;
    }
 
+   .portfolio-wrapper img {
+    margin-bottom: 2.2rem;
+   }
+
+   .project-info {
+    margin: 0 2.2rem 2.2rem 2.2rem;
+   }
+
    /*============================== 
    Skills Section 
    =================================*/
+
+   #skills {
+    margin-bottom: 6.6rem;
+   }
 
   .skills-wrapper {
     justify-content: space-around;
@@ -461,16 +543,52 @@ textarea {
     padding: 0 1rem;
    }
 
+   .skill-item span {
+    text-align: center;
+   }
+
+   .content-wrapper .tools-wrapper {
+    width: 96%;
+    flex-flow: row wrap;
+    align-content: center;
+    padding: 0 1rem;
+   }
+
+   .tool-item {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    align-items: center;
+    padding: 0 1rem;
+   }
+
+   .tool-item span {
+    text-align: center;
+   }
+
   /*================================== 
   About Section 
   =====================================*/
+
+  .about-info {
+    padding-top: 6.6rem;
+  }
 
   .about-info img {
     max-height: 300px;
   }
 
+  .about-info h3 {
+    margin-top: 4.4rem;
+    margin-bottom: 3.3rem;
+  }
+
   .about-info p {
     line-height: 2.5rem;
+  }
+
+  .about-info h4 {
+    margin-bottom: 4.4rem;
   }
 
   /*================================== 
@@ -478,10 +596,12 @@ textarea {
   ====================================*/
   .contact {
     flex-flow: row wrap;
+    margin-top: 4.4rem;
   }
 
   .contact h2 {
     width: 100%;
+    margin-bottom: 4.4rem;
   }
 
   .contact-info {
@@ -491,16 +611,31 @@ textarea {
   }
 
   .hire-me {
-    width: 33%;
+    flex-basis: 20%;
   }
 
   .contact p {
     line-height: 2rem;
+    margin-bottom: 4.4rem;
+  }
+
+  .connect {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
   }
 
   .social-icons {
     justify-content: center;
     width: 50%;
+  }
+
+  .social-icons i {
+    padding-left: 1rem;
+  }
+
+  .meet-me {
+    flex-basis: 30%;
   }
 }
 
