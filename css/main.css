@@ -327,7 +327,7 @@ textarea {
    /*=============================
     Footer styles 
     ==============================*/
-   .contact {
+   #contact-info { 
     display: flex;
     flex-direction: column;
     margin-top: 2.2rem;
@@ -349,7 +349,7 @@ textarea {
     margin-bottom: 3.3rem;
    }
 
-   .contact-info h3 {
+   .contact h3 {
     text-align: center;
     margin-bottom: 1.6rem;
    }
@@ -608,17 +608,17 @@ textarea {
   /*================================== 
   Footer Section 
   ====================================*/
-  .contact {
+  #contact-info {
     flex-flow: row wrap;
     margin-top: 4.4rem;
   }
 
-  .contact h2 {
+  #contact-info h2 {
     width: 100%;
     margin-bottom: 4.4rem;
   }
 
-  .contact-info {
+  .contact {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -628,7 +628,7 @@ textarea {
     flex-basis: 20%;
   }
 
-  .contact p {
+  #contact-info p {
     line-height: 2rem;
     margin-bottom: 4.4rem;
   }
@@ -807,23 +807,23 @@ textarea {
   Footer Section
   ===================================*/
 
-  .contact {
+  #contact-info {
     margin: 5rem 5rem 0 5rem;
   }
 
-  .contact h2 {
+  #contact-info h2 {
     margin-bottom: 3rem;
   }
 
-  .contact-info {
+  .contact {
     width: 100%;
   }
 
-  .contact-info .hire-me {
+  .contact .hire-me {
     flex-basis: 33%;
   }
 
-  .contact-info .connect {
+  .contact .connect {
     flex-basis: 33%;
     display: flex;
     flex-direction: column;
@@ -836,7 +836,7 @@ textarea {
     margin-left: 1rem;
   }
 
-  .contact-info .meet-me {
+  .contact .meet-me {
     flex-basis: 33%;
   }
 }
