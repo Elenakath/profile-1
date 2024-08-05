@@ -189,8 +189,9 @@ textarea {
     margin-bottom: 2.2rem;
    }
 
-   img {
-    max-height: 200px;
+   .portfolio-wrapper img {
+    object-fit: contain;
+    width: 90%;
     border: .4rem solid #E8F0E4;
    }
 
@@ -306,6 +307,7 @@ textarea {
 
    .about-info img {
     max-height: 300px;
+    border: none;
    }
 
    .about-info h3 {
@@ -517,7 +519,7 @@ textarea {
    
   .portfolio-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-flow: row wrap;
     margin-bottom: 1rem;
     width: 50%;
@@ -601,6 +603,7 @@ textarea {
 
   .about-info p {
     line-height: 2.5rem;
+    margin: 2.2rem 3.5rem 0;
   }
 
   .about-info h4 {
@@ -686,8 +689,6 @@ textarea {
 
   .nav-list:hover {
     background-color: #EEE4F0;
-    /*border-radius: 50px;
-    padding: 5px 10px 5px 10px;*/
   }
 
   .home-title p {
@@ -792,7 +793,8 @@ textarea {
   }
 
   .about-info img {
-    max-height: 400px;
+    width: 150%;
+    max-height: none;
   }
 
   .about-info aside {
@@ -806,7 +808,7 @@ textarea {
   }
   .about-info p {
     line-height: 1.5rem;
-    margin-top: 1.2rem;
+    margin: 1.2rem 2rem 0 3rem;
   }
   
   /*=================================
