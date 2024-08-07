@@ -316,10 +316,14 @@ textarea {
     border: none;
    }
 
-   .about-info h3 {
+   .about-info h1 {
     display: flex;
     justify-content: space-evenly;
     margin-top: 2.2rem;
+   }
+
+   .about-info h3 {
+    margin: 2.2rem 1.5rem 0;
    }
 
    .about-info p {
@@ -602,9 +606,13 @@ textarea {
     max-height: 400px;
   }
 
-  .about-info h3 {
+  .about-info h1 {
     margin-top: 4.4rem;
     margin-bottom: 3.3rem;
+  }
+
+  .about-info h3 {
+    margin: 2.2rem 3.5rem 0;
   }
 
   .about-info p {
@@ -809,9 +817,14 @@ textarea {
 
   }
 
-  .about-info h3 {
+  .about-info h1 {
     margin-bottom: 0;
   }
+
+  .about-info h3 {
+    margin: 2.2rem 2rem 0 3rem;
+  }
+  
   .about-info p {
     line-height: 1.5rem;
     margin: 1.2rem 2rem 0 3rem;
