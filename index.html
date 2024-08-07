@@ -1,206 +1,286 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Elena Ecklund's Portfolio</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title>Elena Ecklund's Portfolio</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b2b9c3f952.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/b2b9c3f952.js" crossorigin="anonymous"></script>
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-  <meta name="theme-color" content="#fafafa">
-</head>
-
-<body>
-  <!-- header section -->
-  <header>
-    <div class="greeting">
-      <nav>
-        <ul>
-          <li>
-            <a href="#projects" class="nav-list">Projects</a>
-          </li>
-          <li>
-            <a href="#skills" class="nav-list">Skills</a>
-          </li>
-          <li>
-            <a href="#about" class="nav-list">About Me</a>
-          </li>
-          <li>
-            <a href="#contact-info" class="nav-list">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="home-title">
-        <h1>Hey! I'm Elena Ecklund</h1>
-        <p>I'm a Front End Developer. I love learning and creating beautiful interactive websites. Looking to join a
-          team of like minded-individuals.</p>
-      </div>
-    </div>
-    <!-- end of header -->
-  </header>
-  <!-- Main section -->
-  <main>
-    <article class="portfolio">
-      <section class="hero-wrapper">
-        <div class="work">
-          <h2 id="projects">Projects</h2>
-          <div class="portfolio-wrapper">
-            <figure>
-                <a href="https://yjz3np.csb.app/" target="_blank" class="image-link">
-                  <img src="./sticky-notes.png" alt="image of sticky note app">
-                </a>
-            </figure>
-              <h3>Sticky Note App</h3>
-              <div class="project-info">
-                <p class="class-description">Using React, enjoy this Sticky Note app that lets the users make, edit, and, delete notes as needed. Want to
-                  find a note? Use the search bar to find notes!</p>
-                  <p><span>Skills:</span> ES6, JSX, Managing data flow, Manipulate the DOM</p>
-                  <p class="tools"><span>Tools:</span> CodeSandbox</p>
-              </div>
-              <a href="https://yjz3np.csb.app/" target="_blank" class="live-page-link"><span>Live Page</span>
-              </a>
-          </div>
-          <div class="portfolio-wrapper">
-            <figure>
-                <a href="https://elenakath.github.io/boilerplate-project/" target="_blank" class="image-link">
-                <img src="./unplugged-img.png" alt="image of unplugged website">
-              </a>
-            </figure>
-              <h3>Unplugged</h3>
-              <div class="project-info">
-                <p class="class-description">A 3-page responsive website that adapts to mobile, tablet, and desktop screens.</p>
-                <p><span>Skills:</span> CSS3, Flexbox, HTML5, Media Queries, Responsive Typography</p>
-                <p class="tools"><span>Tools:</span> GitHub, Visual Studio Code</p>
-              </div>
-            <a href="https://elenakath.github.io/boilerplate-project/" target="_blank" class="live-page-link"><span>Live Page</span></a>
-          </div>
-          <div class="portfolio-wrapper">
-            <figure>
-                <a href=" https://elenakath.github.io/guess-the-word-2/" target="_blank" class="image-link">
-                <img src="./guess-the-word-game.png" alt="guess the word app">
-              </a>
-            </figure>
-              <h3>Guess The Word</h3>
-              <div class="project-info">
-                <p class="class-description">Guess a word using one letter at a time. Whether you win or lose, play as many times as you like!</p>
-                <p><span>Skills:</span> Manipulate the DOM, Vanilla JavaScript</p>
-                <p class="tools"><span>Tools:</span> GitHub</p>
-              </div>
-            <a href=" https://elenakath.github.io/guess-the-word-2/" target="_blank" class="live-page-link">
-              <span>Live Page</span></a>
-          </div>
-        </div>
-      </section>
-      <section id="skills">
-        <div class="content-wrapper">
-          <h2 class="skills-header">Skills</h2>
-          <div class="skills-wrapper">
-              <p class="skill-item"><span>CSS3</span></p> 
-              <p class="skill-item"><span>HTML5</span></p> 
-              <p class="skill-item"><span>Git & GitHub</span></p> 
-              <p class="skill-item"><span>JavaScript</span></p> 
-              <p class="skill-item"><span>React</span></p> 
-              <p class="skill-item"><span>APIS</span></p> 
-              <p class="skill-item"><span>Responsive Websites</span></p> 
-          </div>
-          <h2 class="tools-header">Tools</h2>
-          <div class="tools-wrapper">
-            <p class="tool-item"><span>Chrome DevTools</span></p>
-            <p class="tool-item"><span>Visual Studio Code</span></p>
-            <p class="tool-item"><span>CodeSandbox</span></p>
-          </div>
-        </div>
-      </section>
-    </article>
-    <!--article ends -->
-    <section id="about">
-      <div class="about-info">
-      <figure>
-        <img src="./img/self-picture.jpeg" alt="Photo of Elena">
-      </figure>
-      <aside>
-        <h1>Hi, I'm Elena Ecklund</h1>
-        <h3>I'm a Front End Developer, making beautiful interactive websites. Continuing to learn and make websites from St. Paul, MN.</h3>
-        <p>After hearing about coding one evening I decided to give a free coding program a try, to see what it was all
-          about, and ended up enjoying it so much. That's when my journey with coding began, so I joined a bootcamp. 
-          During my time learning to code, I realized how much I like problem-solving, finding ways to make my code more 
-          simple, and of course, making beautiful websites. When I'm not working on coding you can find me spending time with my two little boys 
-          and husband. I have a lot of hobbies and like trying new things, but my main hobby is working out. Running and lifting are my favorites.
-         </p>
-          <h4>Can't wait to work with you!</h4>
-      </aside>
-      </div>
-    </section>
-  </main>
-  <!-- end of Main-->
-  <!-- Footer section -->
-  <footer class="footer">
-    <div id="contact-info">
-        <h2>Let's Connect</h2>
-      <div class="contact">
-        <div class="hire-me">
-          <h3>Hire me</h3>
+  <body>
+    <!-- header section -->
+    <header>
+      <div class="greeting">
+        <nav>
+          <ul>
+            <li>
+              <a href="#projects" class="nav-list">Projects</a>
+            </li>
+            <li>
+              <a href="#skills" class="nav-list">Skills</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-list">About Me</a>
+            </li>
+            <li>
+              <a href="#contact-info" class="nav-list">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="home-title">
+          <h1>Hey! I'm Elena Ecklund</h1>
           <p>
-            <a href="mailto:elenaka123@gmail.com">Elenaka123@gmail.com</a><br>
-            <a href="tel:6514914573">651-491-4573</a>
+            I'm a Front End Developer. I love learning and creating beautiful
+            interactive websites. Looking to join a team of like
+            minded-individuals.
           </p>
         </div>
-        <div class="connect">
-          <h3>Follow Me</h3>
-          <ul class="social-icons">
-          <li>
-            <a href="https://github.com/Elenakath" target="_blank">
-            <i class="fa-brands fa-github"></i>
-          </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/elena-ecklund-776393292/" target="_blank">
-              <i class="fa-brands fa-linkedin">
-              </i>
-            </a>
-          </li>
-        </ul>
-        </div>
-        <div class="meet-me">
-          <h3>Meet Me</h3>
-          <p>
-            St. Paul, MN<br>
-            Let's go to meet ups together!
-        </p>
-        </div>
-        <p>Copyright 2024 | Elena Ecklund</p>
       </div>
-    </div>
-  </footer>
-  <!-- end of footer -->
-  <!-- Add your site or application content here -->
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+      <!-- end of header -->
+    </header>
+    <!-- Main section -->
+    <main>
+      <article class="portfolio">
+        <section class="hero-wrapper">
+          <div class="work">
+            <h2 id="projects">Projects</h2>
+            <div class="portfolio-wrapper">
+              <figure>
+                <a
+                  href="https://yjz3np.csb.app/"
+                  target="_blank"
+                  class="image-link"
+                >
+                  <img
+                    src="./sticky-notes.png"
+                    alt="image of sticky note app"
+                  />
+                </a>
+              </figure>
+              <h3>Sticky Note App</h3>
+              <div class="project-info">
+                <p class="class-description">
+                  Using React, enjoy this Sticky Note app that lets the users
+                  make, edit, and, delete notes as needed. Want to find a note?
+                  Use the search bar to find notes!
+                </p>
+                <p>
+                  <span>Skills:</span> ES6, JSX, Managing data flow, Manipulate
+                  the DOM
+                </p>
+                <p class="tools"><span>Tools:</span> CodeSandbox</p>
+              </div>
+              <a
+                href="https://yjz3np.csb.app/"
+                target="_blank"
+                class="live-page-link"
+                ><span>Live Page</span>
+              </a>
+            </div>
+            <div class="portfolio-wrapper">
+              <figure>
+                <a
+                  href="https://elenakath.github.io/boilerplate-project/"
+                  target="_blank"
+                  class="image-link"
+                >
+                  <img
+                    src="./unplugged-img.png"
+                    alt="image of unplugged website"
+                  />
+                </a>
+              </figure>
+              <h3>Unplugged</h3>
+              <div class="project-info">
+                <p class="class-description">
+                  A 3-page responsive website that adapts to mobile, tablet, and
+                  desktop screens.
+                </p>
+                <p>
+                  <span>Skills:</span> CSS3, Flexbox, HTML5, Media Queries,
+                  Responsive Typography
+                </p>
+                <p class="tools">
+                  <span>Tools:</span> GitHub, Visual Studio Code
+                </p>
+              </div>
+              <a
+                href="https://elenakath.github.io/boilerplate-project/"
+                target="_blank"
+                class="live-page-link"
+                ><span>Live Page</span></a
+              >
+            </div>
+            <div class="portfolio-wrapper">
+              <figure>
+                <a
+                  href=" https://elenakath.github.io/guess-the-word-2/"
+                  target="_blank"
+                  class="image-link"
+                >
+                  <img
+                    src="./guess-the-word-game.png"
+                    alt="guess the word app"
+                  />
+                </a>
+              </figure>
+              <h3>Guess The Word</h3>
+              <div class="project-info">
+                <p class="class-description">
+                  Guess a word using one letter at a time. Whether you win or
+                  lose, play as many times as you like!
+                </p>
+                <p>
+                  <span>Skills:</span> Manipulate the DOM, Vanilla JavaScript
+                </p>
+                <p class="tools"><span>Tools:</span> GitHub</p>
+              </div>
+              <a
+                href=" https://elenakath.github.io/guess-the-word-2/"
+                target="_blank"
+                class="live-page-link"
+              >
+                <span>Live Page</span></a
+              >
+            </div>
+          </div>
+        </section>
+        <section id="skills">
+          <div class="content-wrapper">
+            <h2 class="skills-header">Skills</h2>
+            <div class="skills-wrapper">
+              <p class="skill-item"><span>CSS3</span></p>
+              <p class="skill-item"><span>HTML5</span></p>
+              <p class="skill-item"><span>Git & GitHub</span></p>
+              <p class="skill-item"><span>JavaScript</span></p>
+              <p class="skill-item"><span>React</span></p>
+              <p class="skill-item"><span>APIS</span></p>
+              <p class="skill-item"><span>Responsive Websites</span></p>
+            </div>
+            <h2 class="tools-header">Tools</h2>
+            <div class="tools-wrapper">
+              <p class="tool-item"><span>Chrome DevTools</span></p>
+              <p class="tool-item"><span>Visual Studio Code</span></p>
+              <p class="tool-item"><span>CodeSandbox</span></p>
+            </div>
+          </div>
+        </section>
+      </article>
+      <!--article ends -->
+      <section id="about">
+        <div class="about-info">
+          <figure>
+            <img src="./img/self-picture.jpeg" alt="Photo of Elena" />
+          </figure>
+          <aside>
+            <h1>Hi, I'm Elena Ecklund</h1>
+            <h3>
+              I'm a Front End Developer, making beautiful interactive websites.
+              Continuing to learn and make websites from St. Paul, MN.
+            </h3>
+            <p>
+              After hearing about coding one evening I decided to give a free
+              coding program a try, to see what it was all about, and ended up
+              enjoying it so much. That's when my journey with coding began, so
+              I joined a bootcamp. During my time learning to code, I realized
+              how much I like problem-solving, finding ways to make my code more
+              simple, and of course, making beautiful websites. When I'm not
+              working on coding you can find me spending time with my two little
+              boys and husband. I have a lot of hobbies and like trying new
+              things, but my main hobby is working out. Running and lifting are
+              my favorites.
+            </p>
+            <h4>Can't wait to work with you!</h4>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <!-- end of Main-->
+    <!-- Footer section -->
+    <footer class="footer">
+      <div id="contact-info">
+        <h2>Let's Connect</h2>
+        <div class="contact">
+          <div class="hire-me">
+            <h3>Hire me</h3>
+            <p>
+              <a href="mailto:elenaka123@gmail.com">Elenaka123@gmail.com</a
+              ><br />
+              <a href="tel:6514914573">651-491-4573</a>
+            </p>
+          </div>
+          <div class="connect">
+            <h3>Follow Me</h3>
+            <ul class="social-icons">
+              <li>
+                <a href="https://github.com/Elenakath" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/elena-ecklund-776393292/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin"> </i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="meet-me">
+            <h3>Meet Me</h3>
+            <p>
+              St. Paul, MN<br />
+              Let's go to meet ups together!
+            </p>
+          </div>
+          <p>Copyright 2024 | Elena Ecklund</p>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <!-- Add your site or application content here -->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
-
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
 </html>

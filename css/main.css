@@ -86,326 +86,328 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   /*===============
+/*===============
     General Styles 
     ================*/
-   html, body {
-    font-size: 20px;
-    font-family: "Alata", sans-serif;
-    text-align: left;
-    color: #351D77;
-    background-color: #E8F0E4;
-    width: 100%;
-    overflow-x: hidden;
-   }
-
-   @media (prefers-reduced-motion: no-preference) {
-    html {
-        scroll-behavior: smooth;  
-    }
+html,
+body {
+  font-size: 20px;
+  font-family: "Alata", sans-serif;
+  text-align: left;
+  color: #351d77;
+  background-color: #e8f0e4;
+  width: 100%;
+  overflow-x: hidden;
 }
 
-   .hero-wrapper, #about {
-    background-color: white;
-   }
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
 
-   /*======================
+.hero-wrapper,
+#about {
+  background-color: white;
+}
+
+/*======================
     Header Styles
     =======================*/
-   header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-   }
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-   .greeting {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   }
+.greeting {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-   nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 0;
-    margin-top: 1.6rem;
-   }
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+  margin-top: 1.6rem;
+}
 
-   nav ul li {
-    list-style: none;
-    padding: 5px 15px;
-   }
+nav ul li {
+  list-style: none;
+  padding: 5px 15px;
+}
 
-   nav ul li:hover {
-    background-color: #EEE4F0;;
-    border-radius: 40px;
-    padding: 5px 15px;
-   }
+nav ul li:hover {
+  background-color: #eee4f0;
+  border-radius: 40px;
+  padding: 5px 15px;
+}
 
-   nav ul li a {
-    text-decoration: none;
-    color: #351D77;
-   }
+nav ul li a {
+  text-decoration: none;
+  color: #351d77;
+}
 
-   .home-title {
-    align-content: center;
-    padding: 20px 50px;
-    margin-top: 3.3rem;
-   }
+.home-title {
+  align-content: center;
+  padding: 20px 50px;
+  margin-top: 3.3rem;
+}
 
-   h1 {
-    font-size: 1.5rem;
-    text-align: center;
-    width: 100%
-   } 
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+}
 
-   .home-title p {
-    text-align: center;
-   }
+.home-title p {
+  text-align: center;
+}
 
-   /*=========================
+/*=========================
     Main Section 
     ==========================*/
 
-   #projects {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 4.4rem;
-   }
+#projects {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 4.4rem;
+}
 
-   .work {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-   }
+.work {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
 
-   .portfolio-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    margin-bottom: 2.2rem;
-    width: 80%;
-   }
+.portfolio-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-bottom: 2.2rem;
+  width: 80%;
+}
 
-   .portfolio-wrapper h3 {
-    margin-bottom: 2.2rem;
-   }
+.portfolio-wrapper h3 {
+  margin-bottom: 2.2rem;
+}
 
-   .portfolio-wrapper img {
-    object-fit: contain;
-    width: 90%;
-    border: .4rem solid #E8F0E4;
-   }
+.portfolio-wrapper img {
+  object-fit: contain;
+  width: 90%;
+  border: 0.4rem solid #e8f0e4;
+}
 
-   .project-info {
-    display: flex;
-    flex-direction: column;
-   }
+.project-info {
+  display: flex;
+  flex-direction: column;
+}
 
-   .project-info .class-description {
-    margin-bottom: 1.6rem;
-   }
+.project-info .class-description {
+  margin-bottom: 1.6rem;
+}
 
-   .project-info p {
-    margin: 0;
-   }
+.project-info p {
+  margin: 0;
+}
 
-   .project-info .tools {
-    margin-bottom: 2.2rem;
-   }
+.project-info .tools {
+  margin-bottom: 2.2rem;
+}
 
-   .portfolio-wrapper span {
-    font-size: .9rem;
-   }
+.portfolio-wrapper span {
+  font-size: 0.9rem;
+}
 
-   .live-page-link {
-    text-decoration: none;
-   }
+.live-page-link {
+  text-decoration: none;
+}
 
-   .live-page-link span {
-    background-color: #E9B14C;
-    border-radius: 100px;
-    padding: 3px 35px 3px 35px;
-    font-size: 1.2rem;
-    color: #351D77;
-   }
+.live-page-link span {
+  background-color: #e9b14c;
+  border-radius: 100px;
+  padding: 3px 35px 3px 35px;
+  font-size: 1.2rem;
+  color: #351d77;
+}
 
-   .live-page-link span:hover {
-    background-color: #F8D697;
-   }
+.live-page-link span:hover {
+  background-color: #f8d697;
+}
 
-   /*===========================
+/*===========================
     Skills section 
     ============================*/
-   #skills {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 4.4rem;
-   }
+#skills {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4.4rem;
+}
 
-   .content-wrapper {
-    display: flex;
-    flex-direction: column;
-    margin-top: 3.3rem;
-   }
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.3rem;
+}
 
-   h2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 2.2rem;
-    margin-bottom: 2.2rem;
-   }
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.2rem;
+  margin-bottom: 2.2rem;
+}
 
-   .skills-wrapper {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-   }
+.skills-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
 
-   .skills-wrapper .skill-item {
-    background-color: #E9B14C;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-around;
-   }
+.skills-wrapper .skill-item {
+  background-color: #e9b14c;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+}
 
-   .skill-item span {
-    padding: .6rem;
-   }
+.skill-item span {
+  padding: 0.6rem;
+}
 
-   .content-wrapper .tools-wrapper {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-   }
+.content-wrapper .tools-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
 
-   .tools-wrapper .tool-item {
-    background-color: #E9B14C;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-around;
-   }
+.tools-wrapper .tool-item {
+  background-color: #e9b14c;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+}
 
-   .tool-item span {
-    padding: .6rem;
-   }
+.tool-item span {
+  padding: 0.6rem;
+}
 
-   /*==========================
+/*==========================
     About Section 
     ============================*/
 
-   .about-info {
-    display: flex;
-    flex-direction: column;
-    padding-top: 4.4rem;
-   }
+.about-info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4.4rem;
+}
 
-   .about-info figure {
-    display: flex;
-    justify-content: center;
-   }
+.about-info figure {
+  display: flex;
+  justify-content: center;
+}
 
-   .about-info img {
-    max-height: 300px;
-    border: none;
-   }
+.about-info img {
+  max-height: 300px;
+  border: none;
+}
 
-   .about-info h1 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2.2rem;
-   }
+.about-info h1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2.2rem;
+}
 
-   .about-info h3 {
-    margin: 2.2rem 1.5rem 0;
-   }
+.about-info h3 {
+  margin: 2.2rem 1.5rem 0;
+}
 
-   .about-info p {
-    display: flex;
-    margin: 2.2rem 1.5rem 0;
-   }
+.about-info p {
+  display: flex;
+  margin: 2.2rem 1.5rem 0;
+}
 
-   .about-info h4 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 4.4rem;
-   }
+.about-info h4 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 4.4rem;
+}
 
-   /*=============================
+/*=============================
     Footer styles 
     ==============================*/
-   #contact-info { 
-    display: flex;
-    flex-direction: column;
-    margin-top: 2.2rem;
-   }
+#contact-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.2rem;
+}
 
-   .hire-me {
-    margin-bottom: 3.3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   }
+.hire-me {
+  margin-bottom: 3.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-   .hire-me p {
-    text-align: center;
-   }
+.hire-me p {
+  text-align: center;
+}
 
-   .hire-me p a {
-    color: #351D77;
-   }
+.hire-me p a {
+  color: #351d77;
+}
 
-   .contact h2 {
-    text-align: center;
-    margin-bottom: 3.3rem;
-   }
+.contact h2 {
+  text-align: center;
+  margin-bottom: 3.3rem;
+}
 
-   .contact h3 {
-    text-align: center;
-    margin-bottom: 1.6rem;
-   }
+.contact h3 {
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
 
-   .social-icons {
-    display: flex;
-    justify-content: space-evenly;
-    width: 79%;
-    margin-bottom: 3.3rem;
-   }
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 79%;
+  margin-bottom: 3.3rem;
+}
 
-   .social-icons li {
-    list-style: none;
-   }
+.social-icons li {
+  list-style: none;
+}
 
-   .social-icons i{
-    font-size: 2.4rem;
-    color: #351D77;
-   }
+.social-icons i {
+  font-size: 2.4rem;
+  color: #351d77;
+}
 
-   /*===========================
+/*===========================
     Meet me div 
     =============================*/
 
-    .meet-me {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+.meet-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-   .meet-me p {
-    margin-bottom: 3.3rem;
-    text-align: center;
-   }
+.meet-me p {
+  margin-bottom: 3.3rem;
+  text-align: center;
+}
 
-   .contact p {
-    margin-bottom: 3.3rem;
-    text-align: center;
-   }
+.contact p {
+  margin-bottom: 3.3rem;
+  text-align: center;
+}
 
 /* ==========================================================================
    Helper classes
@@ -500,7 +502,8 @@ textarea {
   /*=========================
    General Styles 
    ==========================*/
-  html, body {
+  html,
+  body {
     font-size: 24px;
   }
 
@@ -509,15 +512,15 @@ textarea {
   =============================*/
   header {
     margin: 1.5rem;
-   }
+  }
 
-   .home-title {
+  .home-title {
     margin: 4.4rem 0;
-   }
+  }
 
-   h1 {
+  h1 {
     padding-bottom: 15px;
-   }
+  }
 
   /*=========================== 
   Main section 
@@ -528,36 +531,36 @@ textarea {
   }
 
   #projects {
-    width: 90%
-   }
-   
+    width: 90%;
+  }
+
   .portfolio-wrapper {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
     margin-bottom: 1rem;
     width: 50%;
-   }
+  }
 
-   .portfolio-wrapper img {
+  .portfolio-wrapper img {
     margin-bottom: 2.2rem;
-   }
+  }
 
-   .project-info {
+  .project-info {
     margin: 0 2.2rem 2.2rem 2.2rem;
-   }
+  }
 
-   .portfolio-wrapper span {
+  .portfolio-wrapper span {
     font-size: 1.2rem;
-   }
+  }
 
-   /*============================== 
+  /*============================== 
    Skills Section 
    =================================*/
 
-   #skills {
+  #skills {
     margin-bottom: 6.6rem;
-   }
+  }
 
   .skills-wrapper {
     justify-content: space-around;
@@ -565,38 +568,38 @@ textarea {
     align-content: center;
     flex-flow: row wrap;
     padding: 0 1rem;
-   }
+  }
 
-   .skill-item {
+  .skill-item {
     display: flex;
     justify-content: center;
     width: 33%;
     align-items: center;
     padding: 0 1rem;
-   }
+  }
 
-   .skill-item span {
+  .skill-item span {
     text-align: center;
-   }
+  }
 
-   .content-wrapper .tools-wrapper {
+  .content-wrapper .tools-wrapper {
     width: 96%;
     flex-flow: row wrap;
     align-content: center;
     padding: 0 1rem;
-   }
+  }
 
-   .tool-item {
+  .tool-item {
     display: flex;
     justify-content: center;
     width: 33%;
     align-items: center;
     padding: 0 1rem;
-   }
+  }
 
-   .tool-item span {
+  .tool-item span {
     text-align: center;
-   }
+  }
 
   /*================================== 
   About Section 
@@ -680,16 +683,16 @@ textarea {
   /*===============================================
               Desktop Styles 
     ===============================================*/
-    /*=============================================
+  /*=============================================
      Header Styles 
      ===============================================*/
-  
+
   body {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
   p {
-     font-size: .7rem;
-   }
+    font-size: 0.7rem;
+  }
 
   .greeting {
     width: 85%;
@@ -700,20 +703,20 @@ textarea {
   }
 
   .nav-list {
-    background-color: #E8F0E4;
+    background-color: #e8f0e4;
     border-radius: 50px;
     padding: 5px 10px 5px 10px;
   }
 
   .nav-list:hover {
-    background-color: #EEE4F0;
+    background-color: #eee4f0;
   }
 
   .home-title p {
     margin: 0 6rem;
   }
 
- /*=========================================================
+  /*=========================================================
       Main Section 
   ==========================================================*/
   /*================= 
@@ -746,19 +749,19 @@ textarea {
   }
 
   .live-page-link span {
-    background: #E9B14C;
+    background: #e9b14c;
     border-radius: 50px;
     padding: 0 15px;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   .live-page-link span:hover {
-    background: #F8D697;
+    background: #f8d697;
   }
 
   .portfolio-wrapper span {
-    font-size: .9rem;
-   }
+    font-size: 0.9rem;
+  }
 
   /*================================
   Skills Section
@@ -780,13 +783,13 @@ textarea {
   }
   .skill-item {
     width: 25%;
-    padding: 0 .2rem;
+    padding: 0 0.2rem;
     white-space: nowrap;
   }
 
   .skill-item span {
-    font-size: .7rem;
-    background: #E9B14C;
+    font-size: 0.7rem;
+    background: #e9b14c;
   }
 
   .content-wrapper .tools-wrapper {
@@ -794,7 +797,7 @@ textarea {
   }
 
   .tools-wrapper .tool-item {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
   /*================================
   About Section 
@@ -818,7 +821,6 @@ textarea {
   .about-info aside {
     display: flex;
     flex-direction: column;
-
   }
 
   .about-info h1 {
@@ -828,12 +830,12 @@ textarea {
   .about-info h3 {
     margin: 2.2rem 2rem 0 3rem;
   }
-  
+
   .about-info p {
     line-height: 1.5rem;
     margin: 1.2rem 2rem 0 3rem;
   }
-  
+
   /*=================================
   Footer Section
   ===================================*/
@@ -859,7 +861,6 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
   }
 
   .social-icons li {
@@ -952,4 +953,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
