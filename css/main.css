@@ -357,6 +357,10 @@ textarea {
     text-align: center;
    }
 
+   .hire-me p a {
+    color: #351D77;
+   }
+
    .contact h2 {
     text-align: center;
     margin-bottom: 3.3rem;
