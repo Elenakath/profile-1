@@ -813,10 +813,11 @@ h2 {
   .about-info figure {
     display: flex;
     align-items: center;
+    padding-left: 4rem;
   }
 
   .about-info img {
-    width: 190%;
+    width: 250%;
     max-height: none;
   }
 
