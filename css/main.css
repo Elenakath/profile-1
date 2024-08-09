@@ -318,10 +318,11 @@ h2 {
   border: none;
 }
 
-.about-info h1 {
+.about-info h2 {
   display: flex;
   justify-content: space-evenly;
   margin-top: 2.2rem;
+  font-size: 1.4rem;
 }
 
 .about-info h3 {
@@ -613,9 +614,10 @@ h2 {
     max-height: 400px;
   }
 
-  .about-info h1 {
+  .about-info h2 {
     margin-top: 4.4rem;
     margin-bottom: 3.3rem;
+    font-size: 1.5rem;
   }
 
   .about-info h3 {
@@ -814,7 +816,7 @@ h2 {
   }
 
   .about-info img {
-    width: 150%;
+    width: 190%;
     max-height: none;
   }
 
@@ -823,17 +825,17 @@ h2 {
     flex-direction: column;
   }
 
-  .about-info h1 {
+  .about-info h2 {
     margin-bottom: 0;
   }
 
   .about-info h3 {
-    margin: 2.2rem 2rem 0 3rem;
+    margin: 2.2rem 2rem 0 6rem;
   }
 
   .about-info p {
     line-height: 1.5rem;
-    margin: 1.2rem 2rem 0 3rem;
+    margin: 1.2rem 2rem 0 6rem;
   }
 
   /*=================================
