@@ -741,8 +741,13 @@ h2 {
     justify-content: center;
   }
 
+  .project-info {
+    align-items: center;
+  }
+
   .class-description {
     width: 100%;
+    text-align: center;
   }
 
   .live-page-link {
