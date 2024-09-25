@@ -829,6 +829,7 @@ h2 {
   .about-info aside {
     display: flex;
     flex-direction: column;
+    padding-left: 4rem;
   }
 
   .about-info h2 {
@@ -837,6 +838,7 @@ h2 {
 
   .about-info h3 {
     margin: 2.2rem 2rem 0 6rem;
+    text-align: center;
   }
 
   .about-info p {
